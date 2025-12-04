@@ -8,13 +8,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	
-	WebDriver driver;
+	public WebDriver driver;
 	
 	public void openBrowser() throws Exception{
-		String browser = FileProperties.getPropertyValue("broswer");
+		String browser = FileProperties.getPropertyValue("browser");
 		String url = FileProperties.getPropertyValue("url");
 		driver = getDriver(browser);
 		driver.get(url);
+		driver.manage().window().maximize();
 	}
 	
 	public WebDriver getDriver(String browser) {
