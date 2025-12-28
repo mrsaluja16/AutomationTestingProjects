@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PostApiTest.CreateUserApiTest">
+      <class name="CreateContactUsingLombokPojo.createContactAfterLoginTest">
         <methods>
-          <include name="createUserWithJSONFileTest"/>
+          <include name="createContactAfterLoginUsingPostRequestTest"/>
         </methods>
-      </class> <!-- PostApiTest.CreateUserApiTest -->
+      </class> <!-- CreateContactUsingLombokPojo.createContactAfterLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-27T20:09:20 IST" name="Default suite" finished-at="2025-12-27T20:09:21 IST" duration-ms="1212">
+  <suite started-at="2025-12-28T22:48:12 IST" name="Default suite" finished-at="2025-12-28T22:48:16 IST" duration-ms="4169">
     <groups>
     </groups>
-    <test started-at="2025-12-27T20:09:20 IST" name="Default test" finished-at="2025-12-27T20:09:21 IST" duration-ms="1212">
-      <class name="PostApiDifferentBodyTypes.PostApiDifferentBody">
-        <test-method signature="bodyWithImageFileTest()[pri:0, instance:PostApiDifferentBodyTypes.PostApiDifferentBody@37d4349f]" started-at="2025-12-27T20:09:20 IST" name="bodyWithImageFileTest" finished-at="2025-12-27T20:09:21 IST" duration-ms="1199" status="PASS">
+    <test started-at="2025-12-28T22:48:12 IST" name="Default test" finished-at="2025-12-28T22:48:16 IST" duration-ms="4169">
+      <class name="CreateContactUsingLombokPojo.createContactAfterLoginTest">
+        <test-method signature="createContactAfterLoginUsingPostRequestTest()[pri:0, instance:CreateContactUsingLombokPojo.createContactAfterLoginTest@3c7f66c4]" started-at="2025-12-28T22:48:12 IST" name="createContactAfterLoginUsingPostRequestTest" finished-at="2025-12-28T22:48:16 IST" duration-ms="4151" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bodyWithImageFileTest -->
-      </class> <!-- PostApiDifferentBodyTypes.PostApiDifferentBody -->
+        </test-method> <!-- createContactAfterLoginUsingPostRequestTest -->
+      </class> <!-- CreateContactUsingLombokPojo.createContactAfterLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
