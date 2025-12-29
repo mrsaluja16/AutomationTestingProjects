@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CreateContactUsingLombokPojo.createContactAfterLoginTest">
+      <class name="BookingAPITest.BookingAPITest">
         <methods>
-          <include name="createContactAfterLoginUsingPostRequestTest"/>
+          <include name="getToken"/>
+          <include name="updateBookingTest"/>
         </methods>
-      </class> <!-- CreateContactUsingLombokPojo.createContactAfterLoginTest -->
+      </class> <!-- BookingAPITest.BookingAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
