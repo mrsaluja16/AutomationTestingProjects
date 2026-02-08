@@ -1,5 +1,6 @@
 package APICalls;
 
+import org.apache.commons.codec.binary.StringUtils;
 import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -16,6 +17,7 @@ public class UserAPITest {
 	
 	String token = null;
 	String userId = null;
+
 	
 	@BeforeTest
 	public void setup() {
@@ -27,13 +29,15 @@ public class UserAPITest {
 	}
 	
 	public String randomPassword() {
-		return "pass123";
+		String s  = "pass"+System.currentTimeMillis();
+		s = s.substring(0, 10);
+		return s;
 	}
 	
 	@BeforeMethod
 	public void generateToken() {
 		LoginLombokPOJO login = new LoginLombokPOJO("mrsaluja16@gmail.com", "Singh@1608");
-		token = RestAssured.given()
+		token = RestAssured.given().log().all()
 				.contentType(ContentType.JSON)
 				.body(login)
 			.when()
@@ -48,7 +52,7 @@ public class UserAPITest {
 		
 		UserLombokPojo user = new UserLombokPojo("RJFreddy", "RJSharma", randomEmail(), randomPassword());
 		
-		userId = RestAssured.given()
+		userId = RestAssured.given().log().all()
 				.contentType(ContentType.JSON)
 				.header("Authorization", "Bearer "+token)
 				.body(user)
@@ -56,7 +60,7 @@ public class UserAPITest {
 				.post("/users")
 			.then().log().all()
 				.assertThat().statusCode(201)
-				.and().extract().path("_id");
+				.and().extract().path("user._id");
 	}
 	
 	@Test
@@ -68,8 +72,9 @@ public class UserAPITest {
 				.get("/users/me")
 			.then()
 				.statusCode(200)
-				.and().body("firstName", Matchers.equalTo("Ranjeet"));
+				.and().body("firstName", Matchers.equalTo("Ranjit Singh"));
 	}
+
 	
 	@Test
 	public void createUserTest() {
