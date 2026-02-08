@@ -1,4 +1,4 @@
-package java.String.Examples;
+package java.Interview.Examples;
 
 public class ReverseNumber {
 

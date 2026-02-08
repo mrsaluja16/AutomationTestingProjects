@@ -1,4 +1,4 @@
-package java.String.Examples;
+package java.Interview.Examples;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;
