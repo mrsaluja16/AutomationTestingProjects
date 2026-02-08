@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="Test1">
+        <classes>
+            <!--  <class name="GETAPITestWithBDD.ContactsAPI"/>-->
+            <!-- <class name="GetAPIWithNonBDDFormat.GetContactsAPITest"/> -->
+            <class name="APICalls.UserAPITest"/>
+        </classes>
+    </test>
+</suite>

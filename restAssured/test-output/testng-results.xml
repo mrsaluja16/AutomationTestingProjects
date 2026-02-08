@@ -1,57 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-29T22:08:50 IST" name="Default suite" finished-at="2025-12-29T22:09:12 IST" duration-ms="21891">
+  <suite started-at="2026-02-01T21:27:24 IST" name="Default suite" finished-at="2026-02-01T21:27:39 IST" duration-ms="14957">
     <groups>
     </groups>
-    <test started-at="2025-12-29T22:08:50 IST" name="Default test" finished-at="2025-12-29T22:09:12 IST" duration-ms="21891">
-      <class name="BookingAPITest.BookingAPITest">
-        <test-method is-config="true" signature="getToken()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:08:50 IST" name="getToken" finished-at="2025-12-29T22:08:53 IST" duration-ms="3453" status="PASS">
+    <test started-at="2026-02-01T21:27:24 IST" name="Default test" finished-at="2026-02-01T21:27:39 IST" duration-ms="14957">
+      <class name="PUTCallWithBDD.UpdateUserTest">
+        <test-method signature="createUserThenUpdateUserTest()[pri:0, instance:PUTCallWithBDD.UpdateUserTest@5b03b9fe]" started-at="2026-02-01T21:27:24 IST" name="createUserThenUpdateUserTest" finished-at="2026-02-01T21:27:39 IST" duration-ms="14940" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getToken -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:08:53 IST" name="setUp" finished-at="2025-12-29T22:08:55 IST" duration-ms="1817" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createBookingTest()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:08:55 IST" name="createBookingTest" finished-at="2025-12-29T22:08:55 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createBookingTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:08:55 IST" name="setUp" finished-at="2025-12-29T22:08:57 IST" duration-ms="2038" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="deleteBookingTest()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:08:57 IST" name="deleteBookingTest" finished-at="2025-12-29T22:08:59 IST" duration-ms="2244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteBookingTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:08:59 IST" name="setUp" finished-at="2025-12-29T22:09:01 IST" duration-ms="2064" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getAllBookingTest()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:09:01 IST" name="getAllBookingTest" finished-at="2025-12-29T22:09:04 IST" duration-ms="2589" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllBookingTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:09:04 IST" name="setUp" finished-at="2025-12-29T22:09:06 IST" duration-ms="2005" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getBookingTest()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:09:06 IST" name="getBookingTest" finished-at="2025-12-29T22:09:08 IST" duration-ms="1896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBookingTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:09:08 IST" name="setUp" finished-at="2025-12-29T22:09:10 IST" duration-ms="1741" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="updateBookingTest()[pri:0, instance:BookingAPITest.BookingAPITest@5a45133e]" started-at="2025-12-29T22:09:10 IST" name="updateBookingTest" finished-at="2025-12-29T22:09:12 IST" duration-ms="2018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateBookingTest -->
-      </class> <!-- BookingAPITest.BookingAPITest -->
+        </test-method> <!-- createUserThenUpdateUserTest -->
+      </class> <!-- PUTCallWithBDD.UpdateUserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
